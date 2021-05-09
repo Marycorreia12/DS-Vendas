@@ -1,4 +1,4 @@
-package com.devsuperior.dsvendas.entities.dto;
+                           package com.devsuperior.dsvendas.entities.dto;
 
 import java.io.Serializable;
 
@@ -11,9 +11,7 @@ public class SaleSuccessDTO implements Serializable{
 	private Long visited;
 	private Long deals;
 	
-	public SaleSuccessDTO() {
-		
-	}
+	public SaleSuccessDTO() {}
 
 	public SaleSuccessDTO(Seller seller, Long visited, Long deals) {
 		sellerName = seller.getName();

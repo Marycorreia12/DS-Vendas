@@ -21,6 +21,7 @@ public class SaleService {
 	@Autowired
 	private SaleRepository repository;
 	
+	@Autowired
 	private SellerRepository sellerRepository;
 	
 	@Transactional(readOnly = true)
@@ -31,7 +32,7 @@ public class SaleService {
 	}
 	
 	@Transactional(readOnly = true)
-	public List<SaleSumDTO> amountGroupedBySeller() {
+	public List<SaleSumDTO> amountGroupBySeller() {
 		return repository.amountGroupBySeller();
 	}
 	

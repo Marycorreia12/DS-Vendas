@@ -10,9 +10,7 @@ public class SaleSumDTO implements Serializable{
 	private String sellerName;
 	private Double sum;
 	
-	public SaleSumDTO() {
-		
-	}
+	public SaleSumDTO() {}
 
 	public SaleSumDTO(Seller seller, Double sum) {
 		sellerName = seller.getName();
