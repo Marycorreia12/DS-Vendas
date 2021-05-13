@@ -14,10 +14,10 @@ export type SalePage = {
     last: boolean;
     totalElements: number;
     totalPages: number;
-    first: boolean;
-    numberOfElements?: number;
     size?: number;
     number: number;
+    first: boolean;
+    numberOfElements?: number;
     empty?: boolean;
 }
 
